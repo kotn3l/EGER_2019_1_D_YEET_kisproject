@@ -4,6 +4,7 @@ Kövevetelmény specifikáció
 2. Vágyálomrendszer
 
 3. Szabványok/rendeletek
+-
 
 4. Jelenlegi üzleti folyamatok modellje
 
@@ -12,5 +13,7 @@ Kövevetelmény specifikáció
 6. Követelménylista
 
 7. Irányított és szabad szöveges riportok
+-
 
 8. Fogalomszótár
+-
