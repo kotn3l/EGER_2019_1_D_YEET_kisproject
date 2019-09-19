@@ -11,6 +11,7 @@ Kövevetelmény specifikáció
 5. Igényelt üzleti folyamatok modellje
 
 6. Követelménylista
+Windows Form-os applikáció fejlesztése, gondozható állatok, több ehető cucc az állatoknak (odahúzással eszik), alvás, testreszabható állatok (többféle), több szint (fejlődés) xp barral, in-game "store" ahol lehet venni kaját/ágyat/játékot neki. Awardok ha szintet lépsz. Pénzt kapsz ha simogatod (amit a storeban el lehet költeni). Legyen az adott állatnak lifebarja, azaz ha nem gondozzák meghal. Egyszerű animációk. Néhány store funckió szinttel lezárva.
 
 7. Irányított és szabad szöveges riportok
 -
