@@ -9,6 +9,7 @@ Virtuális állat gondozós applikáció fejlesztése, igényes, letisztult kin�
 -
 
 4. Jelenlegi üzleti folyamatok modellje
+A legtöbb alkalmazásban problémát jelent az, hogy az adott nevelendő állatunk nem tud elpusztulni, így nem realisztikus, és nem tanítja meg például a gyerekeket arra, hogy a nevelendő állatukat akár a való életben, akár a virtuális világban sok figyelmet igényelnek.
 
 5. Igényelt üzleti folyamatok modellje
 
