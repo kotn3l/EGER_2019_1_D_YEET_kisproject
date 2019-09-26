@@ -14,7 +14,6 @@ namespace PetYeeter
     {
         public Form1()
         {
-            //yeet2a
             InitializeComponent();
         }
     }
