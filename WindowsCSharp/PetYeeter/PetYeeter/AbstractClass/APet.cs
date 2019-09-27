@@ -42,6 +42,14 @@ namespace PetYeeter
             }
         }
 
+        private Point position;
+        public Point Position
+        {
+            get { return position; }
+            set { position = value; }
+        }
+
+
         public void Damage()
         {
 
@@ -53,15 +61,18 @@ namespace PetYeeter
 
         public  void Display(Graphics g)
         {
-
+            Image img = Image.FromFile(texturePath);
+            g.DrawImage(img, new Point(this.Position.X * config.Default.drawingUnit,
+                                       this.Position.Y * config.Default.drawingUnit));
         }
 
-        public APet(string TexturePath)
+        public APet(string TexturePath, Point Position)
         {
             this.Dead = false;
             this.Health = 255;
             this.Hunger = 0;
             this.TexturePath = TexturePath;
+            this.Position = Position;
         }
 
     }
