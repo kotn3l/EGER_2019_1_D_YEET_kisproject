@@ -48,6 +48,7 @@
     <Compile Include="AbstractClass\APet.cs" />
     <Compile Include="Class\Cat.cs" />
     <Compile Include="Class\Dog.cs" />
+    <Compile Include="Class\Pets.cs" />
     <Compile Include="config.Designer.cs">
       <AutoGen>True</AutoGen>
       <DesignTimeSharedInput>True</DesignTimeSharedInput>

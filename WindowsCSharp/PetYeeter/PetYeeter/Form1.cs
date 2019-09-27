@@ -12,6 +12,9 @@ namespace PetYeeter
 {
     public partial class Form1 : Form
     {
+        public static Random rnd = new Random();
+        Graphics g;
+
         public Form1()
         {
             InitializeComponent();
