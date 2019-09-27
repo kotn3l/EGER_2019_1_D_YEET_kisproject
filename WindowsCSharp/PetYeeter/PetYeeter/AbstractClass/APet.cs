@@ -1,12 +1,14 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Drawing;
+using System.IO;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
 namespace PetYeeter
 {
-    class APet
+    abstract class APet : IDrawable
     {
         
         private byte health;
@@ -23,18 +25,21 @@ namespace PetYeeter
             set { hunger = value; }
         }
 
-        private string texturePath;
-        public string TexturePath
-        {
-            get { return texturePath; }
-            set { texturePath = value; }
-        }
 
         private bool dead;
         public bool Dead
         {
             get { return dead; }
             set { dead = value; }
+        }
+
+        private string texturePath;
+        public string TexturePath { get { return texturePath; }
+            set {
+                if (File.Exists(value))
+                    texturePath = value;
+                else throw new FileNotFoundException("File not found", value);
+            }
         }
 
         public void Damage()
@@ -45,9 +50,12 @@ namespace PetYeeter
         {
 
         }
-        
-        
-        
+
+        public  void Display(Graphics g)
+        {
+
+        }
+
         public APet(string TexturePath)
         {
             this.Dead = false;
