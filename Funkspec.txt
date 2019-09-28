@@ -13,7 +13,7 @@ Virtuális állat gondozós applikáció fejlesztése, igényes, letisztult kin�
 Windows Form-os applikáció fejlesztése, gondozható állatok, több ehető cucc az állatoknak (odahúzással eszik), alvás, testreszabható állatok (többféle), több szint (fejlődés) xp barral, in-game "store" ahol lehet venni kaját/ágyat/játékot neki. Awardok ha szintet lépsz. Pénzt kapsz ha simogatod (amit a storeban el lehet költeni). Legyen az adott állatnak lifebarja, azaz ha nem gondozzák meghal. Egyszerű animációk. Néhány store funckió szinttel lezárva.
 
 5.Jelenlegi üzleti folyamatok modellje
-A legtöbb alkalmazásban problémát jelent az, hogy az adott nevelendő állatunk nem tud elpusztulni, így nem realisztikus, és nem tanítja meg például a gyerekeket arra, hogy a nevelendő állatukat akár a való életben, akár a virtuális világban sok figyelmet igényelnek.
+A legtöbb alkalmazásban problémát jelent az, hogy az adott nevelendő állatunk nem tud elpusztulni, így nem realisztikus, azaz nem a valóságot adja vissza és nem tanítja meg például a gyerekeket arra, hogy a nevelendő állatukat akár a való életben, akár a virtuális világban sok figyelmet igényelnek. Ezen alkalmazás motiválhatná a gyerekeket illetve akár a felnőtteket is arra hogy több időt töltsenek az állatukkal, miközben szórakozásra is kiválóan alkalmas ez az állatnevelgetős de mégis valamilyen szinten realisztikus játék.
 
 6.Igényelt üzleti folyamatok modellje
 
