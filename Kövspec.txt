@@ -1,23 +1,43 @@
 Kövevetelmény specifikáció
+
+
 1. Jelenlegi helyzet
-Több alkalmzást kipróbáltunk már, de sajnos a legtöbből hiányzott egy olyan plusz ami miatt az adott játék jobb lehetne, de még máshol nem láttuk alkalmazva eddig. Ezt egy ismert játékban a Tamagotchi-ban már láthattuk, még pedig az, hogy az adott nevelendő állatunk, ha nem figyelünk rá, elpusztulhat, ami azért lenne fontos számunkra, mert így a játék tényleges életbeli alapokon nyugszik, és arra készteti a játék használóját, hogy jobban odafigyeljen rá, illetve többet foglalkozzon vele. Illetve, ami még fontos lenne, hogy az ételek amiket az adott nevelhető állatnak adnánk ne jelenjen meg az összes a játék legelejétől fogva, mert az eddig látott alkalmazásainkban ez így működött, és egy idő után ez már nem volt érdekes a játékos számára. Így, hogy fennttartsuk az érdeklődést azt szeretnénk, hogy fejlődés során ahogy szintet lépünk, szépen lassan, sorjában egyre több és egyre különlegesebb ételekkel tudjuk etetni az állatunkat. 
+Több alkalmzást kipróbáltunk már, de sajnos a legtöbből hiányzott egy olyan plusz ami miatt az adott játék jobb lehetne, de még máshol nem láttuk alkalmazva eddig. 
+Ezt egy ismert játékban a Tamagotchi-ban már láthattuk, még pedig az, hogy az adott nevelendő állatunk, ha nem figyelünk rá, elpusztulhat, ami azért lenne fontos számunkra, mert így a játék tényleges életbeli alapokon nyugszik, és arra készteti a játék használóját, hogy jobban odafigyeljen rá, illetve többet foglalkozzon vele.
+Illetve, ami még fontos lenne, hogy az ételek amiket az adott nevelhető állatnak adnánk ne jelenjen meg az összes a játék legelejétől fogva, mert az eddig látott alkalmazásainkban ez így működött, és egy idő után ez már nem volt érdekes a játékos számára. 
+Így, hogy fennttartsuk az érdeklődést azt szeretnénk, hogy fejlődés során ahogy szintet lépünk, szépen lassan, sorjában egyre több és egyre különlegesebb ételekkel tudjuk etetni az állatunkat. 
+
 
 2. Vágyálomrendszer
-Virtuális állat gondozós applikáció fejlesztése, igényes, letisztult kinézet/megjelenítés, legyen benne tartalom, sokrétű testreszabás lehetősége mind a gondozható karakter mind a környezet szempontjából. Részletes, ugyanakkor érthető információ megjelenítés az adott karakterről. Követhető díjazási rendszer mind játékbeli pénz és játékbeli tapasztalat formájában. Kihívást nyújtó játéknehézség. A játékbeli tapasztalat pontok alapján történő követhető fejlődésrendszer. Fejlődésrendszer alapján kioldható állatok/karakterek, testreszabási lehetőségek.
+Virtuális állat gondozós applikáció fejlesztése, igényes, letisztult kinézet/megjelenítés, legyen benne tartalom, sokrétű testreszabás lehetősége mind a gondozható karakter mind a környezet szempontjából. 
+Részletes, ugyanakkor érthető információ megjelenítés az adott karakterről. Követhető díjazási rendszer mind játékbeli pénz és játékbeli tapasztalat formájában. Kihívást nyújtó játéknehézség. 
+A játékbeli tapasztalat pontok alapján történő követhető fejlődésrendszer. Fejlődésrendszer alapján kioldható állatok/karakterek, testreszabási lehetőségek.
+
 
 3. Szabványok/rendeletek
 -
 
+
 4. Jelenlegi üzleti folyamatok modellje
-A legtöbb alkalmazásban problémát jelent az, hogy az adott nevelendő állatunk nem tud elpusztulni, így nem realisztikus, azaz nem a valóságot adja vissza és nem tanítja meg például a gyerekeket arra, hogy a nevelendő állatukat akár a való életben, akár a virtuális világban sok figyelmet igényelnek. Ezen alkalmazás motiválhatná a gyerekeket illetve akár a felnőtteket is arra hogy több időt töltsenek az állatukkal, miközben szórakozásra is kiválóan alkalmas ez az állatnevelgetős de mégis valamilyen szinten realisztikus játék.
+A legtöbb alkalmazásban problémát jelent az, hogy az adott nevelendő állatunk nem tud elpusztulni, így nem realisztikus, azaz nem a valóságot adja vissza és nem tanítja meg például a gyerekeket arra, hogy a nevelendő állatukat akár a való életben, akár a virtuális világban sok figyelmet igényelnek.
+Ezen alkalmazás motiválhatná a gyerekeket illetve akár a felnőtteket is arra hogy több időt töltsenek az állatukkal, miközben szórakozásra is kiválóan alkalmas ez az állatnevelgetős de mégis valamilyen szinten realisztikus játék.
+
 
 5. Igényelt üzleti folyamatok modellje
 
+
 6. Követelménylista
-Windows Form-os applikáció fejlesztése, gondozható állatok, több ehető cucc az állatoknak (odahúzással eszik), alvás, testreszabható állatok (többféle), több szint (fejlődés) xp barral, in-game "store" ahol lehet venni kaját/ágyat/játékot neki. Awardok ha szintet lépsz. Pénzt kapsz ha simogatod (amit a storeban el lehet költeni). Legyen az adott állatnak lifebarja, azaz ha nem gondozzák meghal. Egyszerű animációk. Néhány store funckió szinttel lezárva.
+Windows Form-os applikáció fejlesztése, gondozható állatok, több ehető cucc az állatoknak (odahúzással eszik), alvás, testreszabható állatok (többféle), több szint (fejlődés) xp barral, in-game "store" ahol lehet venni kaját/ágyat/játékot neki. Awardok ha szintet lépsz.
+Pénzt kapsz ha simogatod (amit a storeban el lehet költeni). Legyen az adott állatnak lifebarja, azaz ha nem gondozzák meghal. 
+Egyszerű animációk. 
+Néhány store funckió szinttel lezárva.
+
 
 7. Irányított és szabad szöveges riportok
 -
 
+
 8. Fogalomszótár
--
+Life bar - Az adott nevelendő állatunk életszinjét mutatja.
+
+xp bar - Az adott nevelendő állatunk tapasztalat szintjét mutatja
