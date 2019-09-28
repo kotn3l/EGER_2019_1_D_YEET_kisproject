@@ -19,7 +19,7 @@ namespace PetYeeter
         public Form1()
         {
             InitializeComponent();
-            
+            FiftyOne.AddCat(, new Point(1, 2)); //i am confusion
         }
 
         private void pictureBox1_Paint(object sender, PaintEventArgs e)

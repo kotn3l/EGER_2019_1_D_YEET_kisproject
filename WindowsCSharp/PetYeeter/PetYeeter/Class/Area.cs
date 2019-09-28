@@ -41,5 +41,17 @@ namespace PetYeeter
         {
             Kind.AddPet(new Dog(Position));
         }
+        private Area()
+        {
+            petss = new List<APet>();
+        }
+        //public Cat Cat
+        //{
+        //    get { return (Cat)Petss.Where(c => c is Cat).First(); }
+        //}
+        //public Dog Dog
+        //{
+        //    get { return (Dog)Petss.Where(c => c is Dog).First(); }
+        //}
     }
 }
