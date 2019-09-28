@@ -6,7 +6,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace PetYeeter.AbstractClass
+namespace PetYeeter
 {
     abstract class AItem : IDrawable
     {
@@ -21,6 +21,14 @@ namespace PetYeeter.AbstractClass
                 else throw new FileNotFoundException("File not found", value);
             }
         }
+
+        private int price;
+        public int Price
+        {
+            get { return price; }
+            set { price = value; }
+        }
+
 
         public void Display(Graphics g)
         {

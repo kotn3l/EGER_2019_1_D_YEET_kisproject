@@ -12,21 +12,33 @@ namespace PetYeeter
         public int Xp
         {
             get { return xp; }
-            set { xp = value; }
+            set {
+                if (value > 0)
+                    xp = value;
+                else throw new Exception();
+            }
         }
 
         private int level;
         public int Level
         {
             get { return level; }
-            set { level = value; }
+            set {
+                if (value > 0)
+                    level = value;
+                else throw new Exception();
+            }
         }
 
         private int coins;
         public int Coins
         {
             get { return coins; }
-            set { coins = value; }
+            set {
+                if (value >= 0)
+                    coins = value;
+                else throw new Exception();
+            }
         }
 
         private string name;
@@ -40,6 +52,14 @@ namespace PetYeeter
             }
         }
 
+        private List<AItem> ownedItems;
+        public List<AItem> OwnedItems
+        {
+            get { return ownedItems; }
+            set { ownedItems = value; }
+        }
+
+
 
         public Player(string Name)
         {
@@ -49,6 +69,20 @@ namespace PetYeeter
             this.Coins = 100;
         }
 
+        public void LevelUp()
+        {
+            if (true)
+                this.Level++;
 
+        }
+
+        public void Buy(AItem Item)
+        {
+            if (this.Coins - Item.Price >= 0)
+            {
+                OwnedItems.Add(Item);
+            }
+            else throw new NotEnoughCoinsException();
+        }
     }
 }
