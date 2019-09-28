@@ -46,6 +46,7 @@
   <ItemGroup>
     <Compile Include="AbstractClass\AItem.cs" />
     <Compile Include="AbstractClass\APet.cs" />
+    <Compile Include="Class\Area.cs" />
     <Compile Include="Class\Cat.cs" />
     <Compile Include="Class\Dog.cs" />
     <Compile Include="Class\Pets.cs" />
@@ -63,6 +64,9 @@
     <Compile Include="Interface\IDrawable.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
@@ -88,6 +92,11 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup />
+  <ItemGroup>
+    <Content Include="tex\cat.png" />
+    <Content Include="tex\dog.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

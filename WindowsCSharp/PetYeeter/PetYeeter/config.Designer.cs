@@ -31,5 +31,23 @@ namespace PetYeeter {
                 return ((int)(this["drawingUnit"]));
             }
         }
+        
+        [global::System.Configuration.ApplicationScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("/tex/cat.png")]
+        public string cattex {
+            get {
+                return ((string)(this["cattex"]));
+            }
+        }
+        
+        [global::System.Configuration.ApplicationScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("/tex/dog.png")]
+        public string dogtex {
+            get {
+                return ((string)(this["dogtex"]));
+            }
+        }
     }
 }

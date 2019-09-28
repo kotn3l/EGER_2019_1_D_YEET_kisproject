@@ -14,10 +14,18 @@ namespace PetYeeter
     {
         public static Random rnd = new Random();
         Graphics g;
+        Area FiftyOne;
 
         public Form1()
         {
             InitializeComponent();
+            
+        }
+
+        private void pictureBox1_Paint(object sender, PaintEventArgs e)
+        {
+            g = e.Graphics;
+            FiftyOne.Draw(g);
         }
     }
 }
