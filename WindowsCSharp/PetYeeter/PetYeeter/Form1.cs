@@ -7,6 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using System.IO;
 
 namespace PetYeeter
 {
@@ -32,6 +33,13 @@ namespace PetYeeter
         {
             NewPlayer vmi = new NewPlayer();
             vmi.ShowDialog();
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            OpenFileDialog of = new OpenFileDialog();
+            of.ShowDialog();
+            of.OpenFile();
         }
     }
 }

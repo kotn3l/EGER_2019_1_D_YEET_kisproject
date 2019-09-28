@@ -59,6 +59,12 @@ namespace PetYeeter
             set { ownedItems = value; }
         }
 
+        private Pets ownedPets;
+        public Pets OwnedPets
+        {
+            get { return ownedPets; }
+            set { ownedPets = value; }
+        }
 
 
         public Player(string Name)
@@ -67,6 +73,15 @@ namespace PetYeeter
             this.Xp = 0;
             this.Level = 1;
             this.Coins = 100;
+        }
+
+        public Player(string Name, int Level, int Xp, int Coins, Pets Owned, List<AItem> OwnedItems) :this(Name) //load a game
+        {
+            this.Xp = Xp;
+            this.Level = Level;
+            this.Coins = Coins;
+            this.OwnedPets = Owned;
+            this.OwnedItems = OwnedItems;
         }
 
         public void LevelUp()
