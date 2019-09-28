@@ -50,6 +50,7 @@
     <Compile Include="Class\Cat.cs" />
     <Compile Include="Class\Dog.cs" />
     <Compile Include="Class\Pets.cs" />
+    <Compile Include="Class\Player.cs" />
     <Compile Include="config.Designer.cs">
       <AutoGen>True</AutoGen>
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
@@ -62,10 +63,19 @@
       <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
     <Compile Include="Interface\IDrawable.cs" />
+    <Compile Include="NewPlayer.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="NewPlayer.Designer.cs">
+      <DependentUpon>NewPlayer.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="NewPlayer.resx">
+      <DependentUpon>NewPlayer.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>

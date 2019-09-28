@@ -1,6 +1,6 @@
 ﻿namespace PetYeeter
 {
-    partial class Form1
+    partial class NewPlayer
     {
         /// <summary>
         /// Required designer variable.
@@ -28,48 +28,45 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.button1 = new System.Windows.Forms.Button();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+            this.tbPName = new System.Windows.Forms.TextBox();
             this.SuspendLayout();
-            // 
-            // pictureBox1
-            // 
-            this.pictureBox1.Location = new System.Drawing.Point(12, 77);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(100, 50);
-            this.pictureBox1.TabIndex = 0;
-            this.pictureBox1.TabStop = false;
-            this.pictureBox1.Paint += new System.Windows.Forms.PaintEventHandler(this.pictureBox1_Paint);
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(13, 22);
+            this.button1.Location = new System.Drawing.Point(58, 49);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(75, 23);
-            this.button1.TabIndex = 1;
-            this.button1.Text = "New player";
+            this.button1.TabIndex = 0;
+            this.button1.Text = "Ok";
             this.button1.UseVisualStyleBackColor = true;
             this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
-            // Form1
+            // tbPName
+            // 
+            this.tbPName.Location = new System.Drawing.Point(49, 12);
+            this.tbPName.Name = "tbPName";
+            this.tbPName.Size = new System.Drawing.Size(100, 20);
+            this.tbPName.TabIndex = 1;
+            this.tbPName.Text = "Your Name";
+            // 
+            // NewPlayer
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(504, 379);
+            this.ClientSize = new System.Drawing.Size(213, 84);
+            this.Controls.Add(this.tbPName);
             this.Controls.Add(this.button1);
-            this.Controls.Add(this.pictureBox1);
-            this.Name = "Form1";
-            this.Text = "Form1";
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
+            this.Name = "NewPlayer";
+            this.Text = "NewPlayer";
             this.ResumeLayout(false);
+            this.PerformLayout();
 
         }
 
         #endregion
 
-        private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.TextBox tbPName;
     }
 }
-

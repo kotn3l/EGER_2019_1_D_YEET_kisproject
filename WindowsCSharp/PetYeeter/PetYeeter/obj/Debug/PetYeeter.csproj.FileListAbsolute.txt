@@ -4,3 +4,9 @@ G:\EKE\ProjektLabor\AFP1\EGER_2019_1_D_YEET_kisproject\WindowsCSharp\PetYeeter\P
 G:\EKE\ProjektLabor\AFP1\EGER_2019_1_D_YEET_kisproject\WindowsCSharp\PetYeeter\PetYeeter\obj\Debug\PetYeeter.Properties.Resources.resources
 G:\EKE\ProjektLabor\AFP1\EGER_2019_1_D_YEET_kisproject\WindowsCSharp\PetYeeter\PetYeeter\obj\Debug\PetYeeter.csproj.GenerateResource.cache
 G:\EKE\ProjektLabor\AFP1\EGER_2019_1_D_YEET_kisproject\WindowsCSharp\PetYeeter\PetYeeter\obj\Debug\PetYeeter.csproj.CoreCompileInputs.cache
+G:\EKE\ProjektLabor\AFP1\EGER_2019_1_D_YEET_kisproject\WindowsCSharp\PetYeeter\PetYeeter\bin\Debug\PetYeeter.exe.config
+G:\EKE\ProjektLabor\AFP1\EGER_2019_1_D_YEET_kisproject\WindowsCSharp\PetYeeter\PetYeeter\bin\Debug\PetYeeter.exe
+G:\EKE\ProjektLabor\AFP1\EGER_2019_1_D_YEET_kisproject\WindowsCSharp\PetYeeter\PetYeeter\bin\Debug\PetYeeter.pdb
+G:\EKE\ProjektLabor\AFP1\EGER_2019_1_D_YEET_kisproject\WindowsCSharp\PetYeeter\PetYeeter\obj\Debug\PetYeeter.NewPlayer.resources
+G:\EKE\ProjektLabor\AFP1\EGER_2019_1_D_YEET_kisproject\WindowsCSharp\PetYeeter\PetYeeter\obj\Debug\PetYeeter.exe
+G:\EKE\ProjektLabor\AFP1\EGER_2019_1_D_YEET_kisproject\WindowsCSharp\PetYeeter\PetYeeter\obj\Debug\PetYeeter.pdb

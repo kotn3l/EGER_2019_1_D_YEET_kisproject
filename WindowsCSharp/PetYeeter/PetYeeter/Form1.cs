@@ -19,13 +19,19 @@ namespace PetYeeter
         public Form1()
         {
             InitializeComponent();
-            FiftyOne.AddCat(, new Point(1, 2)); //i am confusion
+            //FiftyOne.AddCat(, new Point(1, 2)); //i am confusion
         }
 
         private void pictureBox1_Paint(object sender, PaintEventArgs e)
         {
             g = e.Graphics;
-            FiftyOne.Draw(g);
+            //FiftyOne.Draw(g);
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            NewPlayer vmi = new NewPlayer();
+            vmi.ShowDialog();
         }
     }
 }
