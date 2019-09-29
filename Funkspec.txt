@@ -36,11 +36,14 @@ Ezen alkalmazás motiválhatná a gyerekeket illetve akár a felnőtteket is arr
 6.Igényelt üzleti folyamatok modellje
 
 
+
 7.Használati esetek
+
 
 
 8.Képernyőtervek
 -
+
 
 9.Forgatókönyvek
 Futás közben több fontos részlet is van az előttünk látható lapon.
@@ -48,10 +51,17 @@ Elsősorban láthatjuk a nevelő állatunkat akit ki is tudunk választani hogy 
 Másrészt megfigyelhető még a játékban life bar-unk azaz ami az mutatja milyen szinten van az adott állatunknak az életszintje.
 Itt még megfigyelhető az xp bar ami azt jelzi hogy hol tart az adott állatunk tapasztalat szintje és, hogy mennyi van még abból, hogy a következő szintre lépjünk.
 
+
 10.Fogalomszótár
 Life bar - Az adott nevelendő állatunk életszinjét mutatja.
 
 xp bar - Az adott nevelendő állatunk tapasztalat szintjét mutatja
+
+load game - Játék betöltése
+
+New player - Új játékos hozzáadása
+
+Your Name - A rublika ahova be lehet írni az új játékos nevét.
 
 
 
