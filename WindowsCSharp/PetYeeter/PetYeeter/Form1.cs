@@ -16,10 +16,13 @@ namespace PetYeeter
         public static Random rnd = new Random();
         Graphics g;
         Area FiftyOne;
+        public static Timer newtimer;
 
         public Form1()
         {
             InitializeComponent();
+
+            
             //FiftyOne.AddCat(, new Point(1, 2)); //i am confusion
         }
 
@@ -40,6 +43,11 @@ namespace PetYeeter
             OpenFileDialog of = new OpenFileDialog();
             of.ShowDialog();
             of.OpenFile();
+        }
+
+        public void timer1_Tick(object sender, EventArgs e)
+        {
+
         }
     }
 }

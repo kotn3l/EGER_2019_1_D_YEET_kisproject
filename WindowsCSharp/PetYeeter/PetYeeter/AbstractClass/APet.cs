@@ -15,7 +15,11 @@ namespace PetYeeter
         public byte Health
         {
             get { return health; }
-            set { health = value; }
+            set {
+                if (value >= 0)
+                    health = value;
+                else throw new Exception();
+            }
         }
 
         private int hunger;
@@ -30,7 +34,11 @@ namespace PetYeeter
         public bool Dead
         {
             get { return dead; }
-            set { dead = value; }
+            set {
+                if (this.Health == 0)
+                    dead = true;
+                else dead = false;
+            }
         }
 
         private string texturePath;
