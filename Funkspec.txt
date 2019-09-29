@@ -4,12 +4,14 @@ Funkcionális specifikáció
 1.Bevezetés
 Egy olyan alkalmazást fejlesztünk amit első sorban szórakozásra lehet majd használni, de a fiatalabbakat illetve a gyerekeket is ösztönözheti arra, hogy jobban odafigyeljenek virtuális állatukra, illetve a való életben lévő háziállatukra is. 
 Mivel ez a játék nem a megszokottak alapján működik, így ha nem figyelünk a nevelendő állatunkra, az egy idő után elpusztul. Jelenleg számítógépen lehet majd használni ezt az alkalmazást, de később akár más platformra, azaz telefonra is elérhető lesz. 
-Ezt a játékot elsősorban ingyenesre tervezzük, később akár fizetős extákat lehet venni a játékban, amivel még tovább lehet bővíteni a játékot és még érdekesebbé lehet tenni azt. Ezt az alkalmazást bárki letöltheti majd az interneten keresztül egyéb regiszitráció nélkül.
+Ezt a játékot elsősorban ingyenesre tervezzük, később akár fizetős extákat lehet venni a játékban, amivel még tovább lehet bővíteni a játékot és még érdekesebbé lehet tenni azt. 
+Ezt az alkalmazást bárki letöltheti majd az interneten keresztül egyéb regiszitráció nélkül.
 
 
 2.Jelenlegi helyzet
 Több alkalmzást kipróbáltunk már, de sajnos a legtöbből hiányzott egy olyan plusz ami miatt az adott játék jobb lehetne, de még máshol nem láttuk alkalmazva eddig. Ezt egy ismert játékban a Tamagotchi-ban már láthattuk, még pedig az, hogy az adott nevelendő állatunk, ha nem figyelünk rá, elpusztulhat, ami azért lenne fontos számunkra, mert így a játék tényleges életbeli alapokon nyugszik, és arra készteti a játék használóját, hogy jobban odafigyeljen rá, illetve többet foglalkozzon vele. 
-Illetve, ami még fontos lenne, hogy az ételek amiket az adott nevelhető állatnak adnánk ne jelenjen meg az összes a játék legelejétől fogva, mert az eddig látott alkalmazásainkban ez így működött, és egy idő után ez már nem volt érdekes a játékos számára. Így, hogy fennttartsuk az érdeklődést azt szeretnénk, hogy fejlődés során ahogy szintet lépünk, szépen lassan, sorjában egyre több és egyre különlegesebb ételekkel tudjuk etetni az állatunkat. 
+Illetve, ami még fontos lenne, hogy az ételek amiket az adott nevelhető állatnak adnánk ne jelenjen meg az összes a játék legelejétől fogva, mert az eddig látott alkalmazásainkban ez így működött, és egy idő után ez már nem volt érdekes a játékos számára. 
+Így, hogy fennttartsuk az érdeklődést azt szeretnénk, hogy fejlődés során ahogy szintet lépünk, szépen lassan, sorjában egyre több és egyre különlegesebb ételekkel tudjuk etetni az állatunkat. 
 
 
 3.Vágyálom rendszer
@@ -34,11 +36,17 @@ Ezen alkalmazás motiválhatná a gyerekeket illetve akár a felnőtteket is arr
 
 
 6.Igényelt üzleti folyamatok modellje
-
+Azért, hogy a gyerekek és az idősebb korosztály is szórakozva de mégis tudatosan neveljenek egy virtuális állatot, terveztünk egy olyan programot ami ezt a kettőt vegyíti.
+Ez az alkalmazás realisztikusan bemutatja azt, hogy milyen az ha egy virtuális házikedvencünkre nem figyelünk oda és egy idő után így sajnos el is pusztulhat.
 
 
 7.Használati esetek
-
+Ezt az alkalmazást a legkisebbektől az idősebb korosztályig mindenkinek ajánljuk, de elsősorban a fiatalabb korosztály a célközönségünk.
+Hásználata igen egyszerű, mivel először egy új profilt, azaz egy új játékost hozunk létre akivel a későbbiekben majd játszani tudunk.
+Ez után ha sikerült az új játékost létrehoznunk utána be kell töltenünk a játékot és utána már élénk is tárul maga a játék.
+A játék célja, hogy minél tovább jussunk a nevelgetős játékunkban, minél több tapasztalat pontot gyűjtsünk és a virtuális kiskedvencünk életszintje a lehető legmagasabban maradjon mindig, vagy ameddig csak lehet.
+Sajnos, ha a a virtuális kedvencünkre nem figyelünk oda vagy nem foglalkozunk vele sokáig, akkor egy idő után az élet szintje csökkeni fog és szépen lassan eléri a 0 szintet ami azt jelenti, hogy a virtuális kiskedvencünk elpusztul.
+Hogy megelőzzük ezt a végleges kimentelt figyelnünk kell a virtuális állatunkra és minél többet kell vele foglalkoznunk.
 
 
 8.Képernyőtervek
