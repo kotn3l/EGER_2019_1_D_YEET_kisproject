@@ -40,4 +40,10 @@ Néhány store funckió szinttel lezárva.
 8. Fogalomszótár
 Life bar - Az adott nevelendő állatunk életszinjét mutatja.
 
-xp bar - Az adott nevelendő állatunk tapasztalat szintjét mutatja
+xp bar - Az adott nevelendő állatunk tapasztalat szintjét mutatja.
+
+load game - Játék betöltése.
+
+New player - Új játékos hozzáadása.
+
+Your Name - A rublika ahova be lehet írni az új játékos nevét.
