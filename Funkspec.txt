@@ -24,7 +24,8 @@ Fejlődésrendszer alapján kioldható állatok/karakterek, testreszabási lehet
 
 4.Feltételek
 Windows Form-os applikáció fejlesztése, gondozható állatok, több ehető cucc az állatoknak (odahúzással eszik), alvás, testreszabható állatok (többféle), több szint (fejlődés) xp barral, in-game "store" ahol lehet venni kaját/ágyat/játékot neki. 
-Awardok ha szintet lépsz. Pénzt kapsz ha simogatod (amit a storeban el lehet költeni). Legyen az adott állatnak lifebarja, azaz ha nem gondozzák meghal. 
+Awardok ha szintet lépsz. 
+Pénzt kapsz ha simogatod (amit a storeban el lehet költeni). Legyen az adott állatnak lifebarja, azaz ha nem gondozzák meghal. 
 Egyszerű animációk. 
 Néhány store funckió szinttel lezárva.
 
@@ -38,6 +39,8 @@ Ezen alkalmazás motiválhatná a gyerekeket illetve akár a felnőtteket is arr
 6.Igényelt üzleti folyamatok modellje
 Azért, hogy a gyerekek és az idősebb korosztály is szórakozva de mégis tudatosan neveljenek egy virtuális állatot, terveztünk egy olyan programot ami ezt a kettőt vegyíti.
 Ez az alkalmazás realisztikusan bemutatja azt, hogy milyen az ha egy virtuális házikedvencünkre nem figyelünk oda és egy idő után így sajnos el is pusztulhat.
+Úgy terveztük, hogy egyszerűen használható legyen a fiatalabbaknak és a gyerekeknek is de ne legyen túl egyszerű az idősebb korosztálynak sem.
+
 
 
 7.Használati esetek
