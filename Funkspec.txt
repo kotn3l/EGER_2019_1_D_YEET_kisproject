@@ -60,6 +60,7 @@ Hogy megelőzzük ezt a végleges kimentelt figyelnünk kell a virtuális állat
 
 
 8.Képernyőtervek
+
 -
 
 
@@ -82,5 +83,5 @@ load game - Játék betöltése
 New player - Új játékos hozzáadása
 
 Your Name - A rublika ahova be lehet írni az új játékos nevét.
-
+ 
 
