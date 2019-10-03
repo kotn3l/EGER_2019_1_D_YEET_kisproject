@@ -2,6 +2,7 @@ Kövevetelmény specifikáció
 
 
 1. Jelenlegi helyzet
+
 Több alkalmzást kipróbáltunk már, de sajnos a legtöbből hiányzott egy olyan plusz ami miatt az adott játék jobb lehetne, de még máshol nem láttuk alkalmazva eddig. 
 Ezt egy ismert játékban a Tamagotchi-ban már láthattuk, még pedig az, hogy az adott nevelendő állatunk, ha nem figyelünk rá, elpusztulhat, ami azért lenne fontos számunkra, mert így a játék tényleges életbeli alapokon nyugszik, és arra készteti a játék használóját, hogy jobban odafigyeljen rá, illetve többet foglalkozzon vele.
 Illetve, ami még fontos lenne, hogy az ételek amiket az adott nevelhető állatnak adnánk ne jelenjen meg az összes a játék legelejétől fogva, mert az eddig látott alkalmazásainkban ez így működött, és egy idő után ez már nem volt érdekes a játékos számára. 
@@ -9,6 +10,7 @@ Illetve, ami még fontos lenne, hogy az ételek amiket az adott nevelhető álla
 
 
 2. Vágyálomrendszer
+
 Virtuális állat gondozós applikáció fejlesztése, igényes, letisztult kinézet/megjelenítés, legyen benne tartalom, sokrétű testreszabás lehetősége mind a gondozható karakter mind a környezet szempontjából. 
 Részletes, ugyanakkor érthető információ megjelenítés az adott karakterről. Követhető díjazási rendszer mind játékbeli pénz és játékbeli tapasztalat formájában. Kihívást nyújtó játéknehézség. 
 A játékbeli tapasztalat pontok alapján történő követhető fejlődésrendszer. Fejlődésrendszer alapján kioldható állatok/karakterek, testreszabási lehetőségek.
@@ -25,8 +27,13 @@ Ezen alkalmazás motiválhatná a gyerekeket illetve akár a felnőtteket is arr
 
 5. Igényelt üzleti folyamatok modellje
 
+Azért, hogy a gyerekek és az idősebb korosztály is szórakozva de mégis tudatosan neveljenek egy virtuális állatot, terveztünk egy olyan programot ami ezt a kettőt vegyíti.
+Ez az alkalmazás realisztikusan bemutatja azt, hogy milyen az ha egy virtuális házikedvencünkre nem figyelünk oda, azaz ha nem etetjük egy ideig, mint például a való életben is akkor egy idő után így sajnos el is pusztulhat a nevelendő házikedvencünk.
+Úgy terveztük, hogy egyszerűen használható legyen a fiatalabbaknak és a gyerekeknek is de ne legyen túl egyszerű az idősebb korosztálynak sem.
+
 
 6. Követelménylista
+
 Windows Form-os applikáció fejlesztése, gondozható állatok, több ehető cucc az állatoknak (odahúzással eszik), alvás, testreszabható állatok (többféle), több szint (fejlődés) xp barral, in-game "store" ahol lehet venni kaját/ágyat/játékot neki. Awardok ha szintet lépsz.
 Pénzt kapsz ha simogatod (amit a storeban el lehet költeni). Legyen az adott állatnak lifebarja, azaz ha nem gondozzák meghal. 
 Egyszerű animációk. 
@@ -38,6 +45,7 @@ Néhány store funckió szinttel lezárva.
 
 
 8. Fogalomszótár
+
 Life bar - Az adott nevelendő állatunk életszinjét mutatja.
 
 xp bar - Az adott nevelendő állatunk tapasztalat szintjét mutatja.
