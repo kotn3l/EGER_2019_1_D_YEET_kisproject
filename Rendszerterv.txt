@@ -1,6 +1,10 @@
-﻿Rendszerterv
+﻿
+Rendszerterv
 
 1. Rendszer célja
+A rendszer célja az, hogy a fiatalabb és az idősebb korosztályt is ugyan olyan szinten szórakoztatni tudja, de mégis egy szinten tanitja a fiatalabbakat, gyerekeket arra, hogy az adott nevelendő virtuális, illetve nem feltétlenül csak virtuális háziállatunkra fontos figyelni.
+Célja az, hogy megmutassa a fiatalabbaknak azt, hogy ha nem figyelnek kiskedvencükre, akkor annak következménye lehet, mégpedig az, hogy a szeretett virtuális, vagy éppen ténylegesen élő állatuk éhezni fog, és egy idő után el is pusztulhat.
+Összeségében ez egy szórakoztató, de mégis valamilyen szinten nevelő hatású alkalmazás, amelyt elsősorban számítógépre majd telefonra is tervezünk.
 
 2. Projekt terv
 
