@@ -6,11 +6,19 @@ A rendszer célja az, hogy a fiatalabb és az idősebb korosztályt is ugyan oly
 Célja az, hogy megmutassa a fiatalabbaknak azt, hogy ha nem figyelnek kiskedvencükre, akkor annak következménye lehet, mégpedig az, hogy a szeretett virtuális, vagy éppen ténylegesen élő állatuk éhezni fog, és egy idő után el is pusztulhat.
 Összeségében ez egy szórakoztató, de mégis valamilyen szinten nevelő hatású alkalmazás, amelyt elsősorban számítógépre majd telefonra is tervezünk.
 
+
 2. Projekt terv
 
 3. Üzleti folyamatok modellje
 
 4. Követelmények
+
+Egy Windows Form-os applikáció fejlesztése gondozható virtuális állatokkal, amiket több különböző étel fajtákkal lehet etetni.
+Fontos funkció, hogy aludhatnak és testreszabhatóak lehetnek, például kutya vagy macska.
+Fejlődőképesek ami azt jelenti, hogy egy adott xp szint után szintet léphetnek, és ekkor amikor szintet lép valamilyen ajándékot kap, például ételt.
+Pénzszerzési lehetőségünk van abban, ha a nevelendő virtuális házikedvencünket simogatjuk, mivel így kaphatunk ezért pénzt, amit a játékban lévő "store"-ban, azaz a boltban el tudunk költeni például ételre, és ahogy fejlődik az állatunk és mindig szintet lép, új és új ételeket tudjon megnyitni a szintjeivel, azaz nem a legelejétől fogva tudjuk neki az összes ételt adni.
+Az adott nevelendő virtuális kiskedvencünknek van lifebarja, azaz életcsíkja, ami azt jelenti, hogy ha egy ideig nem adunk neki enni, ez a csík lejebb megy és egy idő után eléri a nullát azaz a házikedvencünk elpusztul, akár csak a való életben.
+
 
 5. Funkcionális terv
 
