@@ -24,6 +24,10 @@ Az adott nevelendő virtuális kiskedvencünknek van lifebarja, azaz életcsíkj
 
 6. Fizikai környezet
 
+Ez az alkalmazás számítógépre készült első sorban, de később lehet Andoridra, azaz hordozható eszközökre is elérhető lesz.
+Fejlesztői eszköz: Visual Studio
+
+
 7. Absztrakt domain modell
 
 8. Architekturális terv
